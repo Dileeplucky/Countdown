@@ -5,7 +5,7 @@ const secondsEl = document.getElementById("seconds");
 
 const d = new Date();
 let next_year = d.getFullYear() + 1;
-const newYears = "1 Jan " + year;
+const newYears = "1 Jan " + next_year;
 
 function countdown() {
   const newYearsDate = new Date(newYears);
